@@ -19,7 +19,7 @@ public class SeleniumTest51
 		//open browser
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		//Launch site
 		driver.get("https://www.cricbuzz.com/live-cricket-scorecard/87878/rsa-vs-ind-final-icc-mens-t20-world-cup-2024");
 		Thread.sleep(5000);
